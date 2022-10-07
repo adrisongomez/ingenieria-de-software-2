@@ -157,7 +157,7 @@ public class Login extends javax.swing.JDialog {
             .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/favicon_1.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/favicon_1.jpeg"))); // NOI18N
         jLabel1.setMaximumSize(new java.awt.Dimension(1118, 1080));
         jLabel1.setMinimumSize(new java.awt.Dimension(1118, 1080));
         jLabel1.setPreferredSize(new java.awt.Dimension(200, 200));

@@ -154,7 +154,8 @@ public class Ingresar extends javax.swing.JPanel {
 
         jPanel1.setBackground(java.awt.Color.blue);
         jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jPanel1.setForeground(new java.awt.Color(0, 102, 255));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 0));
+        jPanel1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

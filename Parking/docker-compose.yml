@@ -1,0 +1,18 @@
+version: "3.7"
+services:
+  db:
+    image: mysql:8.0.31
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "parking"
+      MYSQL_DATABASE: "parking"
+      MYSQL_USER: "parking"
+      MYSQL_PASSWORD: "parking"
+      MYSQL_TCP_PORT: 3307
+    ports:
+    - 3307:3307
+    expose:
+    - 3307
+    volumes:
+      - ./db_sql/1.sql:/docker-entrypoint-initdb.d/1.sql
+

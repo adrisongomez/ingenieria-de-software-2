@@ -32,20 +32,18 @@ public class conexion {
      */
     public boolean crearConexion() {
 
-        url = "jdbc:mysql://localhost/bdparqueo?useSSL=false&serverTimezone=UTC";
-        usuario = "root";
-        clave = "";
+        url = "jdbc:mysql://localhost:3307/parking?useSSL=false";
+        usuario = "parking";
+        clave = "parking";
         try {
 
             conexionUP = DriverManager.getConnection(url, usuario, clave);
 
         } catch (SQLException ex) {
-
             JOptionPane.showMessageDialog(null, "Error al conectar con el servidor", "Error critico", JOptionPane.ERROR_MESSAGE);
             return false;
 
         }
-
         return true;
     }
 

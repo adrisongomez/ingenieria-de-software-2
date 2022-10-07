@@ -3,3 +3,7 @@
 /nbproject/private/
 facturas/
 informes/
+reportes/
+/bin/
+/lib/
+>>>>>>> dd24da6 (Set gitignore)

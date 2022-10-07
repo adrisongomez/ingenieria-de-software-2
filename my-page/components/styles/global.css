@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*html{
@@ -9,7 +9,6 @@
 }*/
 
 body{
-    font-family: Helvetica;
 /*    display: flex;
     flex-direction: column;
     height: 100%;*/
@@ -91,7 +90,7 @@ body{
     text-align: center;
     font-size: 2em;
     font-weight: bold;
-    color: rgb(13, 52, 223);/*rgb(114, 112, 112);*/
+    color: black;/*rgb(114, 112, 112);*/
     padding-bottom: 2em;
 }
 
@@ -121,7 +120,6 @@ body{
   /*  rgb(114, 112, 112)*/
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: 'times new roman';
 }
 
 .descripcion{
@@ -132,9 +130,9 @@ body{
 
 .botonver{
     text-decoration: none;
-    background-color: rgb(35, 35, 223);
+    background-color: yellow;
     padding: 10px 30px;
-    color: white;
+    color: black;
     border-radius: 10px;
     transition: 0.3s all ease;
 
@@ -142,7 +140,7 @@ body{
 
 .botonver:hover{
     background: white;
-    color: blue;
+    color: black;
 }
 
 span{
@@ -151,12 +149,12 @@ span{
 }
 
 .precio{
-    color: rgb(37, 58, 241);
+    color: black;
 }
 
 .pie{
-    background-color: rgb(0, 66, 248);
-    color: white;
+    background-color: yellow;
+    color: black;
     clear: both;
     text-align: center;
     padding: 1em 0;
@@ -168,20 +166,19 @@ span{
 /*ABOUT STYLES*/
 
 .about{
-    margin: 30px;
+    margin: 30px 80px;
     padding: 30px;
     box-sizing: border-box;
     background-color: white;
+    text-align: justify;
 }
 
 .about p{
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
 
 }
 
 .about h2{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
 
@@ -192,9 +189,8 @@ span{
 header{
     width: 100%;
     overflow: hidden;
-    background: rgb(2, 72, 222);
+    background: yellow;
     margin-bottom: 0.4px;
-    font-family: 'Times New Roman';
 }
 
 .wrapper{
@@ -205,7 +201,9 @@ header{
 }
 
 .logo{
-    
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
     float: left; 
     line-height: 200px;
 }
@@ -218,7 +216,7 @@ header nav{
 
 header nav a{
     display: inline-block;
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 10px 20px;
     line-height: normal;
@@ -231,7 +229,7 @@ header nav a{
 
 header nav a:hover{
     background: white;
-    color: blue;
+    color: black;
     border-radius: 50px;
 }
 
@@ -241,6 +239,7 @@ header nav a:hover{
 }
 
 .header2 .logo{
+    object-fit: cover;
     font-size: 30px;
 }
 
@@ -252,7 +251,6 @@ header nav a:hover{
 /*descargas*/
 
 .descargas{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     padding: 10px;
     margin: 10px;
@@ -276,13 +274,13 @@ header nav a:hover{
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-    background: blue;
+    background: yellow;
 }
 
 
 .descargas a:hover{
     background: white;
-    color: blue;
+    color: black;
     border-radius: 50px;
 }
 
@@ -294,12 +292,10 @@ header nav a:hover{
 }
 
 .contactanos h2{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 
 }
 
 .contactanos p{
-    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }

@@ -4,8 +4,8 @@ const Header= () => {
     return (
        <header className="parallax">
            <div className="parallax-text">
-               <h2>Parking</h2>
-               <p>Tenemos el espacio perfecto para tus Vehiculos</p>
+               <h2>UASD Parking</h2>
+               <p>Sistema de gestion de control de parqueo</p>
            </div>
 
            <div className="abajo">

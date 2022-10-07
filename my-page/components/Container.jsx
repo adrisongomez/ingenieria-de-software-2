@@ -4,7 +4,7 @@ import Navegacion from './Navegacion';
 const Container = (props)  =>(
     <div>
         <Head>
-            <title>Parking</title>
+            <title>UASD Parking</title>
 
             <meta charset="UTF-8" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />

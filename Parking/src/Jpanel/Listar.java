@@ -102,8 +102,8 @@ public class Listar extends javax.swing.JPanel {
             }
         });
 
+        jButton_Cierre.setBackground(new java.awt.Color(255, 255, 51));
         jButton_Cierre.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jButton_Cierre.setForeground(new java.awt.Color(0, 102, 255));
         jButton_Cierre.setText("Cierre");
         jButton_Cierre.setBorder(null);
         jButton_Cierre.addActionListener(new java.awt.event.ActionListener() {
@@ -113,17 +113,18 @@ public class Listar extends javax.swing.JPanel {
         });
 
         cbAuto.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        cbAuto.setForeground(new java.awt.Color(0, 102, 255));
+        cbAuto.setForeground(new java.awt.Color(0, 0, 51));
         cbAuto.setText("Automovil");
 
         cbMoto.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        cbMoto.setForeground(new java.awt.Color(0, 102, 255));
+        cbMoto.setForeground(new java.awt.Color(0, 0, 51));
         cbMoto.setText("Motocicleta");
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/shop-around-for-your-perfect-used-car.png"))); // NOI18N
 
+        jButton_reiniciar.setBackground(new java.awt.Color(255, 255, 51));
         jButton_reiniciar.setFont(new java.awt.Font("Times New Roman", 0, 14)); // NOI18N
-        jButton_reiniciar.setForeground(new java.awt.Color(0, 102, 255));
+        jButton_reiniciar.setForeground(new java.awt.Color(0, 0, 51));
         jButton_reiniciar.setText("Reiniciar Tabla");
         jButton_reiniciar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
